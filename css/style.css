@@ -74,7 +74,7 @@ button {
 
 #button {
   border-radius: 0 100vh 100vh 0;
-  border-width: 1px 1px 1px 1px;
+  border-width: 1px 0.5px 1px 0.5px;
 }
 
 button:hover {
