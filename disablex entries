@@ -1,0 +1,53 @@
+<!-- Tautulli -->
+      <div class="image-holder">
+        <img id="tautulli" src="assets/images/tautulli.png" />
+        <h3>Tautulli</h3>
+        <p>Plex Manager</p>
+        <a href="http://tautulli.local:8181" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://plex.omrimaymon.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+
+<!-- file-browser -->
+      <div class="image-holder">
+        <img id="file-browser" src="assets/images/file-browser.png" />
+        <h3>Files</h3>
+        <p>File Browser</p>
+        <a href="http://files.local:8080" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://files.omrimaymon.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+
+
+<!-- OPENVPN -->
+      <div class="image-holder">
+        <img id="openvpn" src="assets/images/openvpn.svg" />
+        <h3>OpenVPN</h3>
+        <p>VPN Client</p>
+        <a href="https://192.168.1.103:943" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://vpn.omrimaymon.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+
+
+<!-- NPM -->
+      <div class="image-holder">
+        <img id="npm" src="assets/images/npm.png" />
+        <h3>NGINX</h3>
+        <p>Proxy Manager</p>
+        <a href="http://proxy.local:81" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://proxy.omrimaymon.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>  
