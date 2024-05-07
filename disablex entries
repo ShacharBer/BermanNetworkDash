@@ -38,16 +38,23 @@
         </a>
       </div>
 
-
-<!-- NPM -->
-      <div class="image-holder">
-        <img id="npm" src="assets/images/npm.png" />
-        <h3>NGINX</h3>
-        <p>Proxy Manager</p>
-        <a href="http://proxy.local:81" target="_blank">
-          <button id="left-button">Internal</button>
-        </a>
-        <a href="https://proxy.omrimaymon.com/" target="_blank">
-          <button id="right-button">External</button>
-        </a>
-      </div>  
+<!-- pi-hole -->
+<div class="image-holder">
+  <img id="pi hole" src="assets/images/pi-hole.png" />
+  <h3>Pi-hole</h3>
+  <p>DNS Server</p>
+  <a href="http://31.0.7.4/admin" target="_blank">
+    <button id="left-button">Internal</button>
+  </a>
+  <a href="https://dns.omrimaymon.com/" target="_blank">
+    <button id="right-button">External</button>
+  </a>
+</div>
+<!-- PteroDactyl -->
+<div class="image-holder">
+  <img id="ptero" src="assets/images/ptero.png" />
+  <h3>PteroDactyl</h3>
+  <p>Game Server Management</p>
+  </a>
+  <a href="https://panel.teamberman.com/" target="_blank">
+    <button id="button">External</button>
