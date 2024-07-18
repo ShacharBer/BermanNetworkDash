@@ -1,110 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    /* Flexbox styles for horizontal alignment */
-    .apps {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around; /* Adjust alignment as needed */
-      gap: 20px; /* Adjust gap between items */
-      margin-top: 20px; /* Optional: Adjust margin */
-    }
-    .image-holder {
-      text-align: center; /* Optional: Center align content */
-      width: 200px; /* Adjust width as needed */
-    }
-  </style>
-  <title>Dashboard</title>
-</head>
-<body>
-  <!-- HEADER -->
-  <div class="header">
-    <h1 id="title">Team Berman</h1>
-  </div>
-
-  <!-- APPS -->
-  <h2 class="cat-titles">Apps</h2>
-  <div class="apps">
-    <!-- Portainer -->
-    <div class="image-holder">
-      <img id="portainer" src="assets/images/portainer.png" />
-      <h3>Portainer</h3>
-      <p>Docker Manager</p>
-      <a href="http://31.0.7.15:9000" target="_blank">
-        <button class="left-button">Internal</button>
-      </a>
-      <a href="https://docker.teamberman.com/" target="_blank">
-        <button class="right-button">External</button>
-      </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <h1 id="title">Team Berman</h1>
     </div>
-
-    <!-- Emby -->
-    <div class="image-holder">
-      <img id="emby" src="assets/images/emby.png" />
-      <h3>Emby</h3>
-      <p>Streaming Service</p>
-      <a href="http://31.0.7.9:8096/" target="_blank">
-        <button class="left-button">Internal</button>
-      </a>
-      <a href="https://emby.teamberman.com/" target="_blank">
-        <button class="right-button">External</button>
-      </a>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <!-- APPS -->
+    <h2 class="cat-titles">Apps</h2>
+    <div class="apps">
+      <!-- Crafy Container -->
+      <div class="image-holder">
+        <img id="pve" src="assets/images/crafty.png" />
+        <h3>Crafty Controller</h3>
+        <p>Minecraft Managment Panel</p>
+        <a href="https://31.0.7.8:8443" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://mc.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+    
+      <!-- Portainer -->
+      <div class="image-holder">
+        <img id="portainer" src="assets/images/portainer.png" />
+        <h3>Portainer</h3>
+        <p>Docker Manager</p>
+        <a href="https://thechosenone.local:9443" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://docker.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+      <!-- NPM -->
+      <div class="image-holder">
+        <img id="npm" src="assets/images/npm.png" />
+        <h3>NGINX</h3>
+        <p>Proxy Manager</p>
+        <a href="http://31.0.7.13:81" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://proxy.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+      <!-- JellyFin -->
+      <div class="image-holder">
+        <img id="pms" src="assets/images/jellyfin.png" />
+        <h3>JellyFin</h3>
+        <p>Streaming Service</p>
+        <a href="http://thechosenone.local:8096" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://jlyfin.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+      <!-- SabaShlomo -->
+      <div class="image-holder">
+        <img id="tautulli" src="assets/images/qnap.png" />
+        <h3>Saba Shlomo</h3>
+        <p>Download server</p>
+        <a href="https://31.0.7.16" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://shlomo.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+      <!-- NewVault -->
+      <div class="image-holder">
+        <img id="tautulli" src="assets/images/qnap.png" />
+        <h3>New Vault</h3>
+        <p>File Server</p>
+        <a href="https://31.0.7.14" target="_blank">
+          <button id="left-button">Internal</button>
+        </a>
+        <a href="https://vault.teamberman.com/" target="_blank">
+          <button id="right-button">External</button>
+        </a>
+      </div>
+      
+          <!-- CloudFlare -->
+      <div class="image-holder">
+        <img id="tautulli" src="assets/images/cloudflare.png" />
+        <h3>CloudFlare</h3>
+        <p>Domain Managment</p>
+        <a href="https://dash.cloudflare.com" target="_blank">
+          <button id="button">External</button>
+        </a>
+      </div>
     </div>
-
-    <!-- Cloudflare -->
-    <div class="image-holder">
-      <img id="cloudflare" src="assets/images/cloudflare.png" />
-      <h3>Cloudflare</h3>
-      <p>Domain Management</p>
-      <a href="https://dash.cloudflare.com" target="_blank">
-        <button class="button">External</button>
-      </a>
-    </div>
-
-    <!-- NGINX -->
-    <div class="image-holder">
-      <img id="nginx" src="assets/images/nginx.png" />
-      <h3>NGINX</h3>
-      <p>Proxy Manager</p>
-      <a href="http://31.0.7.13:81" target="_blank">
-        <button class="left-button">Internal</button>
-      </a>
-      <a href="https://proxy.teamberman.com/" target="_blank">
-        <button class="right-button">External</button>
-      </a>
-    </div>
-
-    <!-- Minecraft Control Panel -->
-    <div class="image-holder">
-      <img id="minecraft" src="assets/images/minecraft.png" />
-      <h3>Minecraft Control Panel</h3>
-      <p>Server Management Panel</p>
-      <a href="http://31.0.7.8:8222" target="_blank">
-        <button class="left-button">Internal</button>
-      </a>
-      <a href="https://mc.teamberman.com/" target="_blank">
-        <button class="right-button">External</button>
-      </a>
-    </div>
-
-    <!-- QNAP Saba Shlomo -->
-    <div class="image-holder">
-      <img id="qnap" src="assets/images/qnap.png" />
-      <h3>QNAP Saba Shlomo</h3>
-      <p>Server Console</p>
-      <a href="https://31.0.7.16" target="_blank">
-        <button class="left-button">Internal</button>
-      </a>
-      <a href="https://shlomo.teamberman.com/" target="_blank">
-        <button class="right-button">External</button>
-      </a>
-    </div>
-  </div>
-
-</body>
+  </body>
 </html>
