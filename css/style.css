@@ -126,14 +126,9 @@ a {
 
 /* APPS */
 
-#pve:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #e67001);
-  filter: drop-shadow(0 0 1rem #e67001);
-}
-
-#openvpn:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #ff7a2550);
-  filter: drop-shadow(0 0 1rem #ff7a2550);
+#crafty:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #5934c0);
+  filter: drop-shadow(0 0 1rem #5934c0);
 }
 
 #portainer:hover {
@@ -146,22 +141,17 @@ a {
   filter: drop-shadow(0 0 1rem #b01c4aa0);
 }
 
-#pi-hole:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #fe010150);
-  filter: drop-shadow(0 0 1rem #fe010150);
+#qnap:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #98a5d6);
+  filter: drop-shadow(0 0 1rem #98a5d6);
 }
 
-#file-browser:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #4d66cc);
-  filter: drop-shadow(0 0 1rem #4d66cc);
+#jlyfin:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #312fd1);
+  filter: drop-shadow(0 0 1rem #9938da);
 }
 
-#pms:hover {
+#cflare:hover {
   -webkit-filter: drop-shadow(0 0 1rem #de8f12);
   filter: drop-shadow(0 0 1rem #de8f12);
-}
-
-#tautulli:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #1b1c1f);
-  filter: drop-shadow(0 0 1rem #1b1c1f);
 }
