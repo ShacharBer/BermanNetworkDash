@@ -146,9 +146,9 @@ a {
   filter: drop-shadow(0 0 1rem #98a5d6);
 }
 
-#jlyfin:hover {
-  -webkit-filter: drop-shadow(0 0 1rem #312fd1);
-  filter: drop-shadow(0 0 1rem #9938da);
+#plex:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #f07d25);
+  filter: drop-shadow(0 0 1rem #e9602a);
 }
 
 #cflare:hover {
