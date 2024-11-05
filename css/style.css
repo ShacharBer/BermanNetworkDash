@@ -155,3 +155,11 @@ a {
   -webkit-filter: drop-shadow(0 0 1rem #de8f12);
   filter: drop-shadow(0 0 1rem #de8f12);
 }
+#ccpt:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #1b95e1);
+  filter: drop-shadow(0 0 1rem #1b95e1);
+}
+#gcs:hover {
+  -webkit-filter: drop-shadow(0 0 1rem #9daeb6);
+  filter: drop-shadow(0 0 1rem #9daeb6);
+}
